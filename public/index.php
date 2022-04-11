@@ -10,6 +10,6 @@ require_once dirname(__DIR__) . '/config/init.php';
 
 new App();
 
-// echo App::$app->getProperty('pagination');
-// App::$app->setProperty('test', 'test');
-// var_dump(App::$app->getPropetries());
+// throw new Exception('Возникла ошибочка!');
+
+echo $test;
